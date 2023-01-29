@@ -15,7 +15,7 @@ server.get('/', (req, res) => {
     path: req.headers,
   };
   renderToString(app, context).then((html) => {
-    res.send(`
+    res.send(/*html*/ `
     <!DOCTYPE html>
     <html>
       <head>
